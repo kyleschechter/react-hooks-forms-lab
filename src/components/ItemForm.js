@@ -17,8 +17,8 @@ function ItemForm({ onItemFormSubmit }) {
     e.preventDefault()
     onItemFormSubmit({
       id: uuid(),
-      name,
-      category,
+      name: name,
+      category: category,
     })
   }
 
